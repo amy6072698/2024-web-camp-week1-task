@@ -59,15 +59,30 @@ body{
 	line-height: 1.5;
 }
 
+.wrap{
+	padding: 0 12px;
+}
 .container{
-	max-width: 1296px;
+	max-width: 1320px;
 	margin: 0 auto;
+}
+
+.text-ri{
+	text-align: right;
 }
 
 .header .title{
 	font-size: 128px;
 	letter-spacing: 0.12em;
 }
+.header .pic-container{
+	max-width: 636px;
+	margin: 0 auto;
+}
+.header .pic{
+	width: 100%;
+}
+
 .intro .para{
 	font-size: 32px;
 }
