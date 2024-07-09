@@ -79,6 +79,14 @@ body{
 	margin-bottom: 16px;
 }
 
+.mr-10{
+	margin-right: 40px;
+}
+
+.d-b{
+	display: block;
+}
+
 .header .title{
 	font-size: 128px;
 	letter-spacing: 0.12em;
@@ -131,5 +139,25 @@ body{
 	color: #949494;
 	font-size: 20px;
 	font-style: italic;
+}
+
+.footer{
+	background-color: #000;
+	padding: 64px 0;
+}
+.footer .icons{
+	text-align: center;
+	font-size: 0;
+}
+.footer .icon-item{
+	display: inline-block;
+}
+.footer .icon-img{
+	transition: all 0.4s;
+}
+.footer .icon-link:hover .icon-img{
+	padding-bottom: 12px;
+	margin-bottom: 8px;
+	border-bottom: 3px solid #AE0000;
 }
 
