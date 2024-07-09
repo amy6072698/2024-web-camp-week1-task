@@ -59,12 +59,10 @@ body{
 	line-height: 1.5;
 }
 
-.wrap{
-	padding: 0 12px;
-}
 .container{
 	max-width: 1320px;
 	margin: 0 auto;
+	padding: 0 12px;
 }
 
 .text-ri{
@@ -83,9 +81,20 @@ body{
 	width: 100%;
 }
 
+.intro{
+	background-color: #EFEFEF;
+	padding: 48px 0;
+}
+.intro .para-container{
+	width: 100%;
+	padding-left: 50%;
+}
 .intro .para{
+	max-width: 636px;
+	padding-left: 12px;
 	font-size: 32px;
 }
+
 .expri .title{
 	color: #AE0000;
 	font-size: 40px;
