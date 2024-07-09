@@ -56,6 +56,7 @@ image{
 }
 body{
 	font-family: "Castoro", serif;
+	line-height: 1.5;
 }
 
 .container{
@@ -63,3 +64,22 @@ body{
 	margin: 0 auto;
 }
 
+.header .title{
+	font-size: 128px;
+	letter-spacing: 0.12em;
+}
+.intro .para{
+	font-size: 32px;
+}
+.expri .title{
+	color: #AE0000;
+	font-size: 40px;
+}
+.expri .list-text{
+	font-size: 24px;
+}
+.expri .time-text{
+	color: #949494;
+	font-size: 20px;
+	font-style: italic;
+}
